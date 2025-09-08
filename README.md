@@ -1,75 +1,51 @@
-# Nuxt Minimal Starter
+# 🎬 Nuxt 3 Movie Search App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern movie search and discovery application built with **Nuxt 3**, **Nuxt UI**, and **Tailwind CSS**.  
+Users can explore trending movies, search by title/year/genre, and view movie details with a clean and responsive UI.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🚀 Features
 
-```bash
-# npm
-npm install
+- 🔍 Search movies by **title**, **release year**, and **genre**
+- 🎥 Browse trending movies with beautiful movie cards
+- 📱 Fully responsive design with **Nuxt UI** + **Tailwind CSS**
+- ⚡ State management with **Pinia**
+- 🌀 Loading states, skeletons, and empty states for better UX
+- 🌙 Light/Dark mode support
 
-# pnpm
-pnpm install
+---
 
-# yarn
-yarn install
+## 🛠️ Setup
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### 1. Clone the repository
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+git clone repo link
+cd folder name
 ```
 
-## Production
+2. Install dependencies
+   npm install
 
-Build the application for production:
+3. Configure environment variables
 
-```bash
-# npm
-npm run build
+Create a .env file in the project root and add your API key (example using TMDB API):
 
-# pnpm
-pnpm build
+NUXT_BASE_URL=value
+NUXT_API_KEY=value
+NUXT_ACCESS_TOKEN=value
+NUXT_MOVIE_DB_ACCOUNT_ID=value
+NUXT_SESSION_ID=value
 
-# yarn
-yarn build
+4. Run the development server
+   npm run dev
 
-# bun
-bun run build
-```
+Your app will be available at http://localhost:3000
 
-Locally preview production build:
+5. Build for production
+   npm run build
+   npm run preview
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+6. Run tests (if set up with Vitest or Jest)
+   npm run test
